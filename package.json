@@ -1,0 +1,35 @@
+{
+  "name": "dodo-services",
+  "version": "1.0.0",
+  "description": "Home services booking platform",
+  "private": true,
+  "scripts": {
+    "start:customer": "node scripts/start-customer-app.js",
+    "start:vendor": "node scripts/start-vendor-app.js",
+    "start:admin": "node scripts/start-admin-panel.js",
+    "start:backend": "node scripts/start-backend.js",
+    "check-ports": "node scripts/check-ports.js",
+    "start:all": "concurrently \"npm run start:backend\" \"npm run start:customer\" \"npm run start:vendor\" \"npm run start:admin\"",
+    "install:all": "npm install && cd frontend/customer-app && npm install && cd ../vendor-app && npm install && cd ../admin-panel && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharathkumar0510/dodo.git"
+  },
+  "keywords": [
+    "home-services",
+    "booking",
+    "nextjs",
+    "django",
+    "pwa"
+  ],
+  "author": "Dodo Services Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharathkumar0510/dodo/issues"
+  },
+  "homepage": "https://github.com/sharathkumar0510/dodo#readme",
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
