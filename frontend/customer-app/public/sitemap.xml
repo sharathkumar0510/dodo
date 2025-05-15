@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Home Page -->
+  <url>
+    <loc>https://dodoservices.com/</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://dodoservices.com/images/home-banner.jpg</image:loc>
+      <image:title>Dodo Services Home Banner</image:title>
+      <image:caption>Book professional home services with Dodo Services</image:caption>
+    </image:image>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Authentication Pages -->
+  <url>
+    <loc>https://dodoservices.com/login</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://dodoservices.com/register</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Service Category Pages -->
+  <url>
+    <loc>https://dodoservices.com/services/cleaning</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://dodoservices.com/images/services/cleaning.jpg</image:loc>
+      <image:title>Cleaning Services</image:title>
+      <image:caption>Professional cleaning services for your home</image:caption>
+    </image:image>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://dodoservices.com/services/plumbing</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://dodoservices.com/images/services/plumbing.jpg</image:loc>
+      <image:title>Plumbing Services</image:title>
+      <image:caption>Expert plumbing services for repairs and installations</image:caption>
+    </image:image>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://dodoservices.com/services/electrical</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://dodoservices.com/images/services/electrical.jpg</image:loc>
+      <image:title>Electrical Services</image:title>
+      <image:caption>Professional electrical services for your home</image:caption>
+    </image:image>
+    <mobile:mobile/>
+  </url>
+
+  <!-- User Account Pages -->
+  <url>
+    <loc>https://dodoservices.com/account/profile</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://dodoservices.com/account/bookings</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Information Pages -->
+  <url>
+    <loc>https://dodoservices.com/about</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://dodoservices.com/contact</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://dodoservices.com/faq</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://dodoservices.com/terms</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://dodoservices.com/privacy</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Blog Pages -->
+  <url>
+    <loc>https://dodoservices.com/blog</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://dodoservices.com/blog/home-cleaning-tips</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://dodoservices.com/images/blog/home-cleaning-tips.jpg</image:loc>
+      <image:title>Home Cleaning Tips</image:title>
+      <image:caption>Essential tips for keeping your home clean and fresh</image:caption>
+    </image:image>
+    <mobile:mobile/>
+  </url>
+  <url>
+    <loc>https://dodoservices.com/blog/plumbing-maintenance</loc>
+    <lastmod>2023-07-15T12:30:45+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://dodoservices.com/images/blog/plumbing-maintenance.jpg</image:loc>
+      <image:title>Plumbing Maintenance</image:title>
+      <image:caption>How to maintain your home's plumbing system</image:caption>
+    </image:image>
+    <mobile:mobile/>
+  </url>
+</urlset>

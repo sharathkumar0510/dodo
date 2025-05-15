@@ -1,0 +1,35 @@
+# Dodo Services Vendor Portal Robots.txt
+# Last updated: 2023-07-15
+
+# Disallow all crawlers - This is a private vendor portal
+User-agent: *
+Disallow: /
+
+# Specific rules for Google
+User-agent: Googlebot
+Disallow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Disallow: /
+
+# Specific rules for DuckDuckGo
+User-agent: DuckDuckBot
+Disallow: /
+
+# Specific rules for Yandex
+User-agent: Yandex
+Disallow: /
+
+# Block archive.org
+User-agent: ia_archiver
+Disallow: /
+
+# Block social media crawlers
+User-agent: Twitterbot
+Disallow: /
+
+User-agent: facebookexternalhit
+Disallow: /
+
+# No sitemap for private vendor portal

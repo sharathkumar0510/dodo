@@ -1,0 +1,76 @@
+# Dodo Services Customer App Robots.txt
+# Last updated: 2023-07-15
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /account/
+Disallow: /login
+Disallow: /register
+Disallow: /offline
+Disallow: /_next/
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /account/
+Disallow: /login
+Disallow: /register
+Disallow: /offline
+Disallow: /_next/
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /account/
+Disallow: /login
+Disallow: /register
+Disallow: /offline
+Disallow: /_next/
+
+# Specific rules for DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /api/
+Disallow: /account/
+Disallow: /login
+Disallow: /register
+Disallow: /offline
+Disallow: /_next/
+
+# Specific rules for Yandex
+User-agent: Yandex
+Allow: /
+Disallow: /api/
+Disallow: /account/
+Disallow: /login
+Disallow: /register
+Disallow: /offline
+Disallow: /_next/
+
+# Block archive.org
+User-agent: ia_archiver
+Disallow: /
+
+# Block social media crawlers
+User-agent: Twitterbot
+Allow: /
+Disallow: /api/
+Disallow: /account/
+
+User-agent: facebookexternalhit
+Allow: /
+Disallow: /api/
+Disallow: /account/
+
+# Sitemap locations
+Sitemap: https://dodoservices.com/sitemap-index.xml
+Sitemap: https://dodoservices.com/sitemap.xml
+Sitemap: https://dodoservices.com/sitemap-services.xml
+Sitemap: https://dodoservices.com/sitemap-blog.xml
+
+# Crawl delay for bots
+Crawl-delay: 10
