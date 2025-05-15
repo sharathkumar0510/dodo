@@ -9,6 +9,7 @@ A comprehensive platform for booking home services like cleaning, plumbing, elec
 ## Features
 
 ### PWA (Progressive Web App) Features
+
 - Offline functionality
 - Background synchronization
 - Push notifications
@@ -16,6 +17,7 @@ A comprehensive platform for booking home services like cleaning, plumbing, elec
 - Responsive design for all screen sizes
 
 ### SEO Features
+
 - Optimized metadata
 - Structured data (JSON-LD)
 - Sitemaps
@@ -23,6 +25,7 @@ A comprehensive platform for booking home services like cleaning, plumbing, elec
 - OpenGraph and Twitter card support
 
 ### Core Features
+
 - User authentication with OTP
 - Role-based access control
 - Service booking and management
@@ -32,6 +35,7 @@ A comprehensive platform for booking home services like cleaning, plumbing, elec
 ## Tech Stack
 
 ### Frontend
+
 - **Framework**: Next.js 14 (App Router)
 - **Styling**: TailwindCSS
 - **UI Components**: shadcn/ui
@@ -39,6 +43,7 @@ A comprehensive platform for booking home services like cleaning, plumbing, elec
 - **PWA Support**: Service Workers, IndexedDB
 
 ### Backend
+
 - **Framework**: Django
 - **Architecture**: Microservices
 - **Authentication**: JWT with OTP (MSG91 integration)
@@ -64,28 +69,34 @@ dodo/
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v18+)
 - Python (v3.8+)
 - Django (v4.2+)
 
 ### Backend Setup
+
 1. Navigate to the backend directory:
+
    ```bash
    cd backend
    ```
 
 2. Create a virtual environment:
+
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. Run migrations:
+
    ```bash
    python manage.py migrate
    ```
@@ -95,54 +106,98 @@ dodo/
    python manage.py runserver
    ```
 
-### Frontend Setup (Customer App)
+### Quick Start (Using Standard Ports)
+
+We've configured the project to use standard ports for all applications:
+
+- **Customer App**: Port 3000
+- **Vendor App**: Port 3001
+- **Admin Panel**: Port 3002
+- **Django Backend**: Port 8000
+
+To install all dependencies:
+
+```bash
+npm run install:all
+```
+
+To start all applications at once:
+
+```bash
+npm run start:all
+```
+
+Or start individual applications:
+
+```bash
+npm run start:customer  # Starts Customer App on port 3000
+npm run start:vendor    # Starts Vendor App on port 3001
+npm run start:admin     # Starts Admin Panel on port 3002
+npm run start:backend   # Starts Django Backend on port 8000
+```
+
+These scripts will automatically check if the required port is in use and offer to kill the process if needed.
+
+### Manual Setup (Customer App)
+
 1. Navigate to the customer app directory:
+
    ```bash
    cd frontend/customer-app
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-### Frontend Setup (Vendor App)
+### Manual Setup (Vendor App)
+
 1. Navigate to the vendor app directory:
+
    ```bash
    cd frontend/vendor-app
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
 
 4. Open [http://localhost:3001](http://localhost:3001) in your browser
 
-### Frontend Setup (Admin Panel)
+### Manual Setup (Admin Panel)
+
 1. Navigate to the admin panel directory:
+
    ```bash
    cd frontend/admin-panel
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
@@ -152,6 +207,7 @@ dodo/
 ## PWA and SEO Features
 
 ### PWA Implementation
+
 - Service worker for offline functionality
 - Background sync for offline actions
 - Push notifications for real-time updates
@@ -159,6 +215,7 @@ dodo/
 - Offline pages and indicators
 
 ### SEO Implementation
+
 - Dynamic metadata generation
 - Structured data for rich results
 - Sitemaps for better indexing
@@ -166,6 +223,7 @@ dodo/
 - OpenGraph and Twitter cards for social sharing
 
 ## Contributing
+
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
@@ -173,9 +231,11 @@ dodo/
 5. Open a Pull Request
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
+
 - [Next.js](https://nextjs.org/)
 - [Django](https://www.djangoproject.com/)
 - [TailwindCSS](https://tailwindcss.com/)
